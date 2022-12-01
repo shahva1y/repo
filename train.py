@@ -97,6 +97,7 @@ def main():
               epoch=epoch)
 
         # Save checkpoint
+        save_model(model)
         save_checkpoint(epoch, model, optimizer)
 
 
